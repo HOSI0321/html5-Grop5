@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/상단부.css">
+    <style>
+        * { background-color: rgb(224, 224, 204);}
+    </style>
+</head>
+<body>
+    <!--input 태그로 만든 셀프 진단표 시작 제출하고 초기화 안되게 + alert로 문구가 뜨게 하면 좋을 것 같음-->
+    <form action="#" method="get">
+        <section id="main input">
+            <label for="name">이름</label>
+            <input type="id" name="name" value=" ", type="text"><br>
+            <label for="gender">성별</label>
+            <input type="radio" name="gender" value="m">남자
+            <input type="radio" name="gender" value="w">여자<br>
+            <label for="birth">생년월일</label>
+            <select>
+                <optgroup label="년도">
+                    <option>1987</option>
+                    <option>1988</option>
+                    <option>1989</option>
+                    <option>1990</option>
+                    <option>1991</option>
+                    <option>1992</option>
+                    <option>1993</option>
+                    <option>1994</option>
+                    <option>1995</option>
+                    <option>1996</option>
+                    <option>1997</option>
+                    <option>1998</option>
+                    <option>1999</option>
+                    <option>2000</option>
+                    <option>2001</option>
+                    <option>2002</option>
+                    <option>2003</option>
+                    <option>2004</option>
+                </optgroup>
+            </select>
+            <select>
+                <optgroup label="월">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                    <option>11</option>
+                    <option>12</option>
+                </optgroup>
+            </select>
+            <select>
+                <optgroup label="일">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                    <option>11</option>
+                    <option>12</option>
+                    <option>13</option>
+                    <option>14</option>
+                    <option>15</option>
+                    <option>16</option>
+                    <option>17</option>
+                    <option>18</option>
+                    <option>19</option>
+                    <option>20</option>
+                    <option>21</option>
+                    <option>22</option>
+                    <option>23</option>
+                    <option>24</option>
+                    <option>25</option>
+                    <option>26</option>
+                    <option>27</option>
+                    <option>28</option>
+                    <option>29</option>
+                    <option>30</option>
+                    <option>31</option>
+                </optgroup>
+            </select><br>
+            <!--이건 text로 할지 select로 할지?-->
+            <label for="job">직업</label>
+            <input type="text" name="job" value="직업을 적어주세요!"><br>
+            <label for="height">키</label>
+            <input type="text" name="height" value="키를 입력해 주세요!"><br>
+            <label for="weight">몸무게</label>
+            <input type="text" name="weight" value="몸무게를 입력해 주세요!"><br>
+            <label for="hobby">취미</label>
+            <input type="checkbox" name="hobby" value="read book">독서
+            <input type="checkbox" name="hobby" value="trip">여행
+            <input type="checkbox" name="hobby" value="video game">게임
+            <input type="checkbox" name="hobby" value="cooking">요리<br>
+            <input type="checkbox" name="hobby" value="painting">그림
+            <input type="checkbox" name="hobby" value="watching movie">영화 감상
+            <input type="checkbox" name="hobby" value="drive">운전
+            <input type="checkbox" name="hobby" value="etc">그 외<br>
+            <button type="submit">제출</button>
+        </form>
+    </section>
+<!--div 이상형 설문조사 파트 {문제 발생 제출을 누르면 페이지가 초기화가 됨}-->
+<section>
+    <form>
+        <fieldset>
+        <legend>선호하는 이성의 키는?</legend>
+            <label><input type="radio" name="taller" value="150 미만"> 150cm 미만</label><br>
+            <label><input type="radio" name="taller" value="150 ~ 160"> 150~ 160cm</label><br>
+            <label><input type="radio" name="taller" value="161 ~ 165"> 161 ~ 165cm</label><br>
+            <label><input type="radio" name="taller" value="166 ~ 169"> 166 ~ 169cm</label><br>
+            <label><input type="radio" name="taller" value="170 ~ 174"> 170 ~ 174cm</label><br>
+            <label><input type="radio" name="taller" value="175 이상"> 175cm 이상</label><br>
+        </fieldset>
+    
+        <fieldset>
+            <legend>선호하는 이성의 머리길이는?</legend>
+            <label><input type="radio" name="hairstyle" value="longhair"> 장발</label><br>
+            <label><input type="radio" name="hairstyle" value="shorhair"> 단발</label><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>선호하는 나이대는?</legend>
+            <label><input type="radio" name="age" value="~30"> 30살 미만</label><br>
+            <label><input type="radio" name="age" value="30~34"> 30~34살</label><br>
+            <label><input type="radio" name="age" value="35~40"> 35~39살</label><br>
+            <label><input type="radio" name="age" value="40~"> 40살 이상 </label><br>
+        </fieldset>
+        <button type="submit">제출</button>
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,30 @@
+
+.faq-container {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: #f0eeea;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.faq-item {
+    margin-bottom: 50px;
+}
+
+.question {
+    background-color: #9c9c90;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.answer {
+    display: none;
+    color: rgb(0, 0, 0);
+    background-color: #d6d6c9;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 5px;
+}

@@ -1,0 +1,36 @@
+.background-container {
+    background-color: #f7f5ea;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* 수직 가운데 정렬 */
+    align-items: center; /* 수평 가운데 정렬 */
+    height: 800px; /* 화면의 높이를 차지하도록 설정 */
+}
+
+/* 회사 소개 파트 */
+
+.text-overlay {
+    background: #a3abb86c;
+    box-shadow: 0px 0px 0px 2px #455467;
+    border-color: white;
+    padding: 40px;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+#text {
+    font-size: 16px;
+}
+
+.text-overlay h2 {
+    color: #455467;
+}
+
+h1 {
+    height: 30px;
+    font-size: 18px;
+    font-family: serif;
+    color:#414135;
+}

@@ -1,0 +1,63 @@
+.responsive-image {
+    max-width: 100%;
+    height: auto;
+}
+
+/* 메인 로고 이미지 설정 */
+.logo_name {
+    height: 100px;
+    text-align: center;
+    display: flex; /* 부모 요소를 플렉스 컨테이너로 설정합니다. */
+    justify-content: center; /* 자식 요소를 수평으로 가운데 정렬합니다. */
+    align-items: center;
+}
+
+.logo_name img {
+    display: block; 
+    margin: 0 auto;
+    max-height: 50px;
+}
+
+/* nav 태그 설정 */
+.nav {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: #e0e0c8d0;
+}
+
+.nav li {
+    display: inline;
+
+}   
+
+.nav a {
+    font-size: 18px;
+    padding: 15px ;
+    color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    display: block;
+}
+
+.nav a:hover {
+    background-color: #ebd6a7;
+}
+
+nav li:hover { background-color: #bca293; }
+nav>ul>li:hover { background-color: #bca293; }
+nav>ul>li:active { background-color:#e0e0c8; }
+
+
+
+/* 꼬리말 설정 */
+footer {
+    left:0; bottom: 0; right: 0;
+    height: 150px;
+    background:rgb(235, 235, 235);
+}
+footer>div {
+    font-size: 14px;
+    margin-left: 20px;
+
+}

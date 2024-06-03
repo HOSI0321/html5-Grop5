@@ -1,0 +1,83 @@
+/* 버튼 설정 */
+.button_background {
+  height: 400px;
+  background-size: auto;
+  background-color: rgb(247, 245, 234);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; /* 자식 요소들을 여러 줄로 표시하도록 설정 */
+}
+
+.button_a{
+  background: rgba(224, 215, 202, 0.8);
+  width: 200px; /* 버튼의 너비를 더 넓게 설정 */
+  height: 100px; /* 버튼의 높이를 더 높게 설정 */
+  border: none; /* 테두리 제거 */
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-right: 20px; /* 버튼 사이의 간격 설정 */
+  margin-bottom: 20px; /* 버튼 아래 간격 설정 */
+  padding: 10px 20px;
+  font-size: 24px;
+  color: black;
+}
+.button_c{
+    background: rgba(199, 156, 99, 0.8);
+    width: 200px; /* 버튼의 너비를 더 넓게 설정 */
+    height: 100px; /* 버튼의 높이를 더 높게 설정 */
+    border: none; /* 테두리 제거 */
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-right: 20px; /* 버튼 사이의 간격 설정 */
+    margin-bottom: 20px; /* 버튼 아래 간격 설정 */
+    padding: 10px 20px;
+    font-size: 24px;
+    color: black;
+  
+}
+.button_b{
+  background: rgba(207, 146, 149, 0.8);
+  width: 200px; /* 버튼의 너비를 더 넓게 설정 */
+  height: 100px; /* 버튼의 높이를 더 높게 설정 */
+  border: none; /* 테두리 제거 */
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-right: 20px; /* 버튼 사이의 간격 설정 */
+  margin-bottom: 20px; /* 버튼 아래 간격 설정 */
+  padding: 10px 20px;
+  font-size: 24px;
+  color: black;
+
+}
+.vertical_line {
+  width: 2px;
+  height: 80px; /* Adjust height according to your need */
+  background-color: #ccc; /* Color of the vertical line */
+  margin: 0px 40px; /* Space between buttons and line *
+}
+
+button:last-child {
+  margin-right: 0; /* 마지막 버튼의 오른쪽 마진 제거 */
+}
+
+li:hover {
+  background-color: #f0d2ad;
+}
+button:hover {
+  background-color: #f0d2ad;
+}
+button:active {
+  background-color: #bca293;
+}
+
+li > a,
+button > a {
+  text-decoration-line: none;
+  font-size: 20px;
+  color: rgba(8, 8, 8, 0.836);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif  ;
+}

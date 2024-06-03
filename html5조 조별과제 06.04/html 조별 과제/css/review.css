@@ -1,0 +1,122 @@
+body {
+  font-family: "Georgia", serif;
+  background-color: #f8f8f5; /* 빈티지한 노란색 배경 */
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #dfdbcd; /* 약간의 노란색 배경 */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+}
+h1 {
+  text-align: center;
+  color: #7c6a50; /* 브라운 색상 */
+  font-size: 36px;
+  margin-bottom: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.review-section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.photo-review,
+.text-review {
+  width: 48%;
+}
+.photo-review h2,
+.text-review h2 {
+  margin-bottom: 20px;
+  color: #6b665c; /* 브라운 색상 */
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.review-item {
+  display: flex;
+  align-items: flex-start;
+  border-bottom: 1px solid #e0d5d5;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  flex-direction: column;
+  background: #d6caa2;
+}
+.review-item img {
+  max-width: 100px;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  align-self: center;
+}
+.review-item p {
+  margin: 0;
+  line-height: 1.6;
+  color: #5a5a5a; /* 다크 그레이 색상 */
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.review-author {
+  font-style: italic;
+  color: #d4c2c2;
+  margin-top: 5px;
+}
+.stars {
+  color: #ffd700; /* 골드 색상 */
+  margin-bottom: 5px;
+  text-align: center;
+}
+.more-reviews {
+  text-align: center;
+  margin-top: 20px;
+}
+.more-reviews a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #5a5a5a; /* 브라운 색상 */
+  color:white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  font-size: 21px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.more-reviews a:hover {
+  background-color: #3b2d1f; /* 어두운 브라운 색상 */
+}
+/* 베스트 리뷰 스타일 */
+.best-review {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.best-review h2 {
+  color: rgb(173, 111, 127);
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* 이미지 갤러리 스타일 */
+.image-gallery {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.image-gallery img {
+  width: 100%;
+  max-width: 200px;
+  margin-bottom: 20px;
+  display: none; /* 초기에는 이미지를 숨김 */
+}
+.image-gallery img.visible {
+  display: block; /* 보일 이미지에 적용 */
+}
+/* 리뷰 아이템 숨기기 */
+.review-item.hidden {
+  display: none;
+}
+.review-item.visible {
+  display: flex;
+}
